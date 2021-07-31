@@ -1,0 +1,99 @@
+/* 大盒子设置 */
+.nav {
+    width: 1280px;
+    height: 125.6px;
+    margin: 50px auto 0;
+
+}
+
+/* 共有特征设置 */
+a:hover {
+    color: #315EFB;
+}
+
+/* 导航栏设置 */
+.headline span {
+    position: relative;
+    display: inline-block;
+    width: 88px;
+    height: 38.8px;
+    font-family: PingFangSC-Medium, "Microsoft YaHei", 微软雅黑, sans-serif;
+    font-size: 22px;
+    line-height: 22px;
+    margin: 0 30px 0 0;
+    padding: 0 0 10px;
+}
+
+.headline .active::after {
+    content: '';
+    position: absolute;
+    width: 22px;
+    top: 35px;
+    left: 50%;
+    margin-left: -11px;
+    border-bottom: 3px solid #4F6EF2;
+}
+
+/* 下方li设置 */
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul li a {
+    display: inline-block;
+    width: 200px;
+    height: 74px;
+    line-height: 74px;
+    font-size: 18px;
+    text-align: center;
+    margin-left: -10px;
+    line-height: 74px;
+    margin-top: -1px;
+    border: 1px solid #fff;
+    border-radius: 6px;
+    box-shadow: 0 2px 10px rgb(0 0 0 / 10%);
+}
+
+ul li a i {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+    transform: scale(0.5);
+    width: 60px;
+    height: 70px;
+    margin-left: -20px;
+}
+
+/* 精灵图设置 */
+ul li:nth-child(1) a i {
+    background: url(https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/scholar_mid/static/protocol/https/xueshu/img/css_sprites_5b400ea.png) -10px -10px;
+}
+
+ul li:nth-child(2) a i {
+    background: url(https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/scholar_mid/static/protocol/https/xueshu/img/papersys_ce1fd9c.png);
+    background-size: cover;
+    transform: scale(0.9);
+}
+}
+
+/* 边框变化 */
+ul li a:hover {
+    border: 1px solid rgba(33, 133, 255, .2);
+}
+
+/* 右上角红色设置 */
+ul li a .fl-right {
+    float: right;
+    font-style: normal;
+    font-size: 11px;
+    display: block;
+    top: 0;
+    right: 0;
+    height: 16px;
+    line-height: 16px;
+    text-align: center;
+    background-image: linear-gradient(137deg, #fb6f53 0, #f44c4c 56%);
+    border-radius: 0 5px;
+    color: #fff;
+}
